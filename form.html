@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>  
+
+  <p id="log"></p>
+<div class="form-container">
+  <div class="one">
+
+  <p class="lab3">ITMD 541 - Lab 3- Prakhar Abhichandani</p>
+  <h1>Tip Calculator</h1>
+  <p id="errorlog"></p>
+
+  <form id="tipcalculator" class="calculatetip-form">
+    <div>
+      <label>
+      Bill Total: <input type="text" name="billtotal" id="billtotal" placeholder="Enter a number"  required>
+      </label>
+    </div>
+
+    <div>
+      <label class="tr">
+        Tip: <input type="range" name="tiprange" id="tiprange" >
+      </label>
+    </div>
+
+    <div>
+      <label>
+       Tip Percentage: <input type="text" name="tippercent" id="tippercent" disabled>
+      </label>
+    </div>
+    <div>
+      <label>
+      Tip Amount: <input type="text" name="tipamount" id="tipamount" disabled>
+      </label>
+    </div>
+    <div>
+      <label>
+      Total Bill with Tip: <input type="text" name="finalbillwithtip" id="finalbillwithtip" disabled>
+      </label>
+    </div>
+
+  </form>
+</div>
+</div>
+  <p id="log"></p>
+
+  <script src="formscript.js"></script>
+</body>
+</html>

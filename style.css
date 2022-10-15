@@ -1,0 +1,43 @@
+.form-container{
+  display: grid;
+  justify-content: center;
+  border: 2px solid blue;
+  background-color: rgba(225, 255, 0, 0.456) ;
+  width: 500px;
+}
+
+
+
+#errorlog{
+  color: red;
+}
+
+.lab3{
+  font-size: 18px;
+}
+
+h1{
+  font-size: 40px;
+}
+
+#tiprange,#tippercent,#tipamount,#finalbillwithtip{
+  margin-top: 15px;
+  
+}
+
+#finalbillwithtip{
+  margin-bottom: 15px;
+}
+
+#tiprange{
+  width: 165px;
+}
+
+label {
+  display: inline-block;
+  width: 300px;
+  text-align: right; 
+}
+
+
+  ​
