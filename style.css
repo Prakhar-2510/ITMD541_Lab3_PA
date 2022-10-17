@@ -1,9 +1,18 @@
+.fullcontainer {
+  background-color: beige;
+  padding: 20px; 
+  width: 700px;
+  resize: block;
+  overflow: auto;
+}
+
+
 .form-container{
   display: grid;
   justify-content: center;
   border: 2px solid blue;
-  background-color: rgba(225, 255, 0, 0.456) ;
-  width: 500px;
+  background-color: #D5F5E3;
+  width: 500px; 
 }
 
 
@@ -38,6 +47,20 @@ label {
   width: 300px;
   text-align: right; 
 }
+
+@media all and (max-width: 600px){
+body{
+  background-color:#28B463;
+  }
+
+  .form-container{
+   background-color: #F5B7B1; 
+  }
+
+}
+
+ 
+
 
 
   ​

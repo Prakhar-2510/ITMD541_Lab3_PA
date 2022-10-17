@@ -13,6 +13,8 @@ const tipamount=document.getElementById('tipamount');
 const finalbillwithtip=document.getElementById('finalbillwithtip');
 const errorlog=document.getElementById('errorlog');
 
+
+
 for (i of eventlisteners){
 i.addEventListener('change', updateValue);
 }
