@@ -1,9 +1,10 @@
 .fullcontainer {
-  background-color: beige;
+  
   padding: 20px; 
   width: 700px;
-  resize: block;
-  overflow: auto;
+  height: 500px;
+  
+
 }
 
 
@@ -12,7 +13,7 @@
   justify-content: center;
   border: 2px solid blue;
   background-color: #D5F5E3;
-  width: 500px; 
+
 }
 
 
@@ -55,6 +56,8 @@ body{
 
   .form-container{
    background-color: #F5B7B1; 
+   width: 350px;
+   height: 400px;
   }
 
 }
