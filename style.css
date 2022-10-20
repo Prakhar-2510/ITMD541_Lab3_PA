@@ -11,19 +11,23 @@
 .form-container{
   display: grid;
   justify-content: center;
-  border: 2px solid blue;
-  background-color: #D5F5E3;
-
+  border: 2px solid black;
+  /*background: linear-gradient(45deg, greenyellow, dodgerblue);*/
+  background:#74ebd5;
+  background: -webkit-linear-gradient(to bottom, #74ebd5, #acb6e5);
+  background: linear-gradient(to bottom, #74ebd5, #acb6e5);
 }
 
 
 
-#errorlog{
-  color: red;
-}
+
 
 .lab3{
-  font-size: 18px;
+  font-family: 'Open Sans Condensed', sans-serif;
+	color: #797979;
+	font-size: 18px;
+	font-weight: 100;
+	padding: 20px;  
 }
 
 h1{
@@ -55,15 +59,16 @@ body{
   }
 
   .form-container{
-   background-color: #F5B7B1; 
+   background-color: #495C70; 
    width: 350px;
    height: 400px;
+   color: #fff;
   }
+  
+  .lab3{
+    color:#fff; 
+  }
+
 
 }
 
- 
-
-
-
-  ​
