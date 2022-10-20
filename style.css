@@ -1,21 +1,17 @@
-.fullcontainer {
-  
-  padding: 20px; 
-  width: 700px;
-  height: 500px;
-  
 
+body{
 }
 
-
-.form-container{
+.fullcontainer{
   display: grid;
   justify-content: center;
+  width:400px;
+  
   border: 2px solid black;
   /*background: linear-gradient(45deg, greenyellow, dodgerblue);*/
-  background:#74ebd5;
-  background: -webkit-linear-gradient(to bottom, #74ebd5, #acb6e5);
-  background: linear-gradient(to bottom, #74ebd5, #acb6e5);
+  background: #F2D7D5;
+  margin-left: 33%;
+
 }
 
 
@@ -32,6 +28,7 @@
 
 h1{
   font-size: 40px;
+  text-align: center;
 }
 
 #tiprange,#tippercent,#tipamount,#finalbillwithtip{
@@ -58,10 +55,12 @@ body{
   background-color:#28B463;
   }
 
-  .form-container{
+  .fullcontainer
+  {
+  
    background-color: #495C70; 
    width: 350px;
-   height: 400px;
+   margin-left: 0px;
    color: #fff;
   }
   
