@@ -1,5 +1,10 @@
-
 body{
+  background-color: #ccffff;
+}
+.grid-wrapper{
+  display: grid;
+  justify-content: center;
+  
 }
 
 .fullcontainer{
@@ -9,8 +14,7 @@ body{
   
   border: 2px solid black;
   /*background: linear-gradient(45deg, greenyellow, dodgerblue);*/
-  background: #F2D7D5;
-  margin-left: 33%;
+  background: #99ff66;
 
 }
 
