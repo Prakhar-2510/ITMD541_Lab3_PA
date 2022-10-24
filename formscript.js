@@ -16,7 +16,7 @@ const errorlog=document.getElementById('errorlog');
 
 
 for (i of eventlisteners){
-i.addEventListener('change', updateValue);
+i.addEventListener('change', updateValue,false);
 }
 
 
@@ -24,7 +24,7 @@ i.addEventListener('change', updateValue);
 
 function updateValue(e) {
 
-  if(isNaN(billtotal.value) ) 
+  if(isNaN(billtotal.value) || billtotal.value=='') 
   {
     //alert('Must input numbers only in Bill Total field');
     errorlog.innerText='Please enter a valid number only in Bill Total field !!';

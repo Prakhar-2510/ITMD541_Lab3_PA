@@ -4,18 +4,17 @@ body{
 .grid-wrapper{
   display: grid;
   justify-content: center;
-  
 }
 
-.fullcontainer{
+.form-container{
   display: grid;
+
   justify-content: center;
-  width:400px;
-  
   border: 2px solid black;
   /*background: linear-gradient(45deg, greenyellow, dodgerblue);*/
   background: #99ff66;
-
+  padding: 0 1em;
+  max-width: 60rem;
 }
 
 
@@ -32,6 +31,10 @@ body{
 
 h1{
   font-size: 40px;
+  text-align: center;
+}
+
+#errorlog{
   text-align: center;
 }
 
@@ -54,16 +57,13 @@ label {
   text-align: right; 
 }
 
-@media all and (max-width: 600px){
+@media all and (max-width: 600px) and (min-width: 320px){
 body{
   background-color:#28B463;
   }
 
-  .fullcontainer
-  {
-  
+  .form-container{
    background-color: #495C70; 
-   width: 350px;
    margin-left: 0px;
    color: #fff;
   }
